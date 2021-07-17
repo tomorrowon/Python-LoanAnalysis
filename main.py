@@ -36,7 +36,7 @@ import time
     # 에러 발생 ( https://whoishoo.tistory.com/79 ) 참고
 
 plt.show()
-df = pd.read_csv('../input/loan.csv', low_memory=False)
+df = pd.read_csv('input/loan.csv', low_memory=False)
 
 
 # Copy of the dataframe
